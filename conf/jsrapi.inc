@@ -10,6 +10,8 @@ RPI_USE_U_BOOT="1"
 ENABLE_UART = "1"
 RPI_EXTRA_CONFIG = 'lcd_rotate=2'
 
+IPCON_VER = "4.14"
+
 IMAGE_INSTALL_append = " \
 	ltrace \
 	"
